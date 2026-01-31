@@ -1,17 +1,16 @@
-var input = prompt(`Insira os dados para realizar os cálculos:`);
-var lines = input.split('\n');
+const input = "3.0 4.0 5.2"; 
 
-const [A, B, C] = lines.shift().split(" ").map(parseFloat);
+const lines = input.split(/\s+/);
 
-let areaTriangulo =(1/2.0) * A * C;
+const A = parseFloat(lines[0]);
+const B = parseFloat(lines[1]);
+const C = parseFloat(lines[2]);
 
+let areaTriangulo = (A * C) / 2.0;
 let pi = 3.14159;
-let areaCirculo = pi * (C ** 2);
-
+let areaCirculo = pi * Math.pow(C, 2);
 let areaTrapezio = ((A + B) * C) / 2.0;
-
 let areaQuadrado = B * B;
-
 let areaRetangulo = A * B;
 
 console.log(`TRIANGULO: ${areaTriangulo.toFixed(3)}`);

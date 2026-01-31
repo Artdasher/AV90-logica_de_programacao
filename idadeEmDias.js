@@ -1,4 +1,5 @@
-var input = prompt(`Insira a quantidade de dias para calcular sua idade: `);
+// Inserir quantidade de dias para calcular uma idade:
+var input = `5365`;
 var lines = input.split('\n');
 
 let dias = parseInt(lines.shift());

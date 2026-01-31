@@ -1,3 +1,5 @@
+//insira 4 valores para saber se é aceito ou não
+
 const input = "2 3 2 6"; 
 const valores = input.split(' ');
 

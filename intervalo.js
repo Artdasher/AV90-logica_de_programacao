@@ -1,4 +1,5 @@
-var input = prompt(`Insira um valor qualquer:`);
+//inserir valor entre 0 e 100 para saber em qual intervalo está (Ex.: 35.5)
+var input = "43,3";
 var lines = input.split('\n');
 
 let valor = parseFloat(lines.shift());

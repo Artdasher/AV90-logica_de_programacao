@@ -1,4 +1,6 @@
-var input = prompt(`Insira o valor total (Ex.: 256.63): `);
+//Insira um valor em dinheiro (2 casas decimais) para separar por nota e moedas
+
+var input = "256.63";
 var lines = input.split('\n');
 
 let N = parseFloat(lines.shift() * 100);

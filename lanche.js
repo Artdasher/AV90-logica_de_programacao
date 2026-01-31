@@ -1,4 +1,7 @@
-var input = prompt(`Insira o código do produto e a quantidade:`);
+//inserir 1 codigo da tabela abaixo e uma quantidade para saber
+//quanto pagará
+
+var input = "3 4";
 var lines = input.split('\n');
 
 const [codigo, quantidade] = lines.shift().split(" ").map(Number);

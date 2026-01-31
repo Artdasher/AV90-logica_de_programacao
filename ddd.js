@@ -1,7 +1,8 @@
-var input = (`Insira um DDD para saber de qual cidade é:`);
+// Insira um número para verificar se é um DDD correspondente com a tabela abaixo:
+var input = "27";
 var lines = input.split('\n');
 
-let ddd = parseInt(lines.shift());
+let ddd = parseInt(input);
 
 const cidade = {
     61: "Brasilia",

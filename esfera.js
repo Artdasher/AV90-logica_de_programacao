@@ -1,5 +1,5 @@
 //Calcula o volume de uma esfera
-var input = (`Insira o raio da esfera que quer calcular o volume:`);
+var input = "35";
 var lines = input.split('\n');
 
 let raio = parseFloat(lines.shift());
